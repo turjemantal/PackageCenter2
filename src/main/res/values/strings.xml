@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PackageCenter</string>
+
+
+    <string-array name="jobs_array">
+        <item>Doctor/Clinic</item>
+        <item>Delivery Person</item>
+        <item>Shipping Center</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">969379463448714</string>
+    <string name="fb_login_protocol_scheme">fb969379463448714</string>
+
+    <string name="my_text">To signup press<u> here</u>.</string>
+
+    <string name="Doctor"><b>Doctor/Clinic:</b> </string>
+    <string name="User"><b>User:</b> </string>
+
+    <string name="Time"><b>Time:</b> </string>
+    <string name="by"><b>by:</b> </string>
+
+    <string name="DoctorString"><![CDATA[ <b>Doctor :</b>]]></string>
+
+
+</resources>

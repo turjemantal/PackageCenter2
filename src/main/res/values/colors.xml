@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C28338</color>
+    <color name="colorPrimaryDark">#C28338</color>
+    <color name="colorPrimaryDark2">#A0641D</color>
+
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorwhite">#DAD2D2</color>
+    <color name="colorgray">#CCBCBC</color>
+    <color name="colorgray2">#E2D7D7</color>
+
+
+    <color name="orange_screen_3">#D8891B</color>
+    <color name="gray_screen_3">#867C7C</color>
+    <color name="black">#353232</color>
+
+
+
+
+
+
+
+</resources>

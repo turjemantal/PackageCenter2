@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Back_up"
+    android:orientation="vertical"
+    android:background="@drawable/background_first_screen"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/editText_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail to Back-Up"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/back_Up_Btn"
+        android:layout_width="204dp"
+        android:layout_height="37dp"
+        android:text="Back-up"
+        android:layout_marginBottom="15dp"
+        android:textSize="12dp"
+        android:textAllCaps="false"
+        android:textColor="#072540"
+
+        android:background="@drawable/button_create"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_backed_up"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+
+
+</LinearLayout>

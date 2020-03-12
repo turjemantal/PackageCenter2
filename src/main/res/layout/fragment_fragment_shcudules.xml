@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Shcudules"
+    android:background="@drawable/city_paint"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Add shcudule"
+        android:textSize="16dp"
+        android:id="@+id/Add_shcudule_btn"
+        android:textAllCaps="false"
+        android:textColor="#072540"
+
+        android:background="@drawable/button_create"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        ></Button>
+
+
+
+
+
+
+    <Button
+        android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="Show shcudules"
+    android:textSize="16dp"
+    android:id="@+id/show_shcudules_btn"
+        android:textAllCaps="false"
+        android:textColor="#072540"
+
+        android:background="@drawable/button_create"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        ></Button>
+
+
+
+
+</LinearLayout>

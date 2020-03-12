@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Add_mission"
+    android:background="@drawable/screen_three"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Spinner
+        android:id="@+id/spinner_User"
+        android:layout_width="wrap_content"
+        android:prompt="@string/User"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        ></Spinner>
+
+
+    <Spinner
+        android:id="@+id/spinner_Doctor"
+        android:layout_width="wrap_content"
+        android:prompt="@string/Doctor"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
+        ></Spinner>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText_date_picker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Enter Date"
+        android:textColor="@color/colorgray2"
+        android:textColorHint="@color/colorgray2"
+    />
+
+    <EditText
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/editText_time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Time"
+        android:textColor="@color/colorgray2"
+        android:textColorHint="@color/colorgray2"
+        />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Add "
+        android:textSize="16dp"
+        android:id="@+id/Add_shcudule"
+        android:textColor="#072540"
+
+        android:background="@drawable/button_create"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        ></Button>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_after_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nothing added yet."
+        android:gravity="center"
+        android:textColor="@color/colorgray2"
+        android:textColorHint="@color/colorgray2"
+        />
+
+</LinearLayout>
