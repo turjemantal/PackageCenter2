@@ -109,7 +109,7 @@ public class Signup_Page extends AppCompatActivity {
                     lastNameVal=lastName.getText().toString();
                     firstNameVal=firstName.getText().toString();
                     emailVal=email.getText().toString();
-
+//
                     int i;
                     while(true) {
                         boolean theIdSame=false;
